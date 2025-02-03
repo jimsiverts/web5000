@@ -1,0 +1,22 @@
+# CMake generation dependency list for this directory.
+E:/Visual Studio Comunity/Comunity/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake
+E:/Visual Studio Comunity/Comunity/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake
+E:/Visual Studio Comunity/Comunity/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake
+E:/Visual Studio Comunity/Comunity/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake
+E:/Visual Studio Comunity/Comunity/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake
+E:/Visual Studio Comunity/Comunity/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeRCInformation.cmake
+E:/Visual Studio Comunity/Comunity/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake
+E:/Visual Studio Comunity/Comunity/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake
+E:/Visual Studio Comunity/Comunity/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+E:/Visual Studio Comunity/Comunity/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Compiler/MSVC-CXX.cmake
+E:/Visual Studio Comunity/Comunity/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Compiler/MSVC.cmake
+E:/Visual Studio Comunity/Comunity/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake
+E:/Visual Studio Comunity/Comunity/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-CXX.cmake
+E:/Visual Studio Comunity/Comunity/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake
+E:/Visual Studio Comunity/Comunity/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Platform/Windows.cmake
+E:/Visual Studio Comunity/Comunity/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake
+E:/flutter-learning/projects/sentences_tester/build/windows/x64/CMakeFiles/3.28.0-msvc1/CMakeCXXCompiler.cmake
+E:/flutter-learning/projects/sentences_tester/build/windows/x64/CMakeFiles/3.28.0-msvc1/CMakeRCCompiler.cmake
+E:/flutter-learning/projects/sentences_tester/build/windows/x64/CMakeFiles/3.28.0-msvc1/CMakeSystem.cmake
+E:/flutter-learning/projects/sentences_tester/windows/CMakeLists.txt
+E:/flutter-learning/projects/sentences_tester/windows/flutter/generated_plugins.cmake

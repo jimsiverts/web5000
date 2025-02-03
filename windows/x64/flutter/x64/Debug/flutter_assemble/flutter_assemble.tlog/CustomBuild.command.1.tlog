@@ -1,0 +1,28 @@
+^E:\FLUTTER-LEARNING\PROJECTS\SENTENCES_TESTER\BUILD\WINDOWS\X64\CMAKEFILES\9D6EBFB6E4D5BD3A4419E668CC07B47D\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"E:\Visual Studio Comunity\Comunity\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=E:\src\flutter PROJECT_DIR=E:\flutter-learning\projects\sentences_tester FLUTTER_ROOT=E:\src\flutter FLUTTER_EPHEMERAL_DIR=E:\flutter-learning\projects\sentences_tester\windows\flutter\ephemeral PROJECT_DIR=E:\flutter-learning\projects\sentences_tester FLUTTER_TARGET=E:\flutter-learning\projects\sentences_tester\lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=E:\flutter-learning\projects\sentences_tester\.dart_tool\package_config.json E:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\FLUTTER-LEARNING\PROJECTS\SENTENCES_TESTER\BUILD\WINDOWS\X64\CMAKEFILES\A593183110D348340BBC1E471DCBAA83\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\FLUTTER-LEARNING\PROJECTS\SENTENCES_TESTER\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"E:\Visual Studio Comunity\Comunity\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/flutter-learning/projects/sentences_tester/windows -BE:/flutter-learning/projects/sentences_tester/build/windows/x64 --check-stamp-file E:/flutter-learning/projects/sentences_tester/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
