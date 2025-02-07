@@ -73485,7 +73485,9 @@ m=A.b([],t.s)
 for(l=0;l<n.length;n.length===r||(0,A.E)(n),++l){k=g.a7G(n[l].toLowerCase())
 for(f=k.length,j=0;j<k.length;k.length===f||(0,A.E)(k),++j){i=k[j]
 if(A.a1K(i,null)==null){++g.Q
-if(g.f.p(0,i)){s=q.h(0,i)
+if(!g.f.p(0,i))s=g.fx&&g.f.p(0,g.fr.h(0,i))
+else s=!0
+if(s){s=q.h(0,i)
 q.n(0,i,(s==null?0:s)+1);++g.at}else{h=g.fr.h(0,i)
 if(!g.fx&&h!=null&&g.f.p(0,h)){s=o.h(0,i)
 o.n(0,i,(s==null?0:s)+1);++g.go}else{s=p.h(0,i)
@@ -73506,17 +73508,18 @@ Y6(){this.r.n4(B.La)
 this.z=""
 this.yU()},
 uK(a){this.ah(new A.aep(this,a))},
-GG(a,b){var s,r,q,p,o,n,m,l,k,j=this,i=j.y,h=i.length
-if(h===0||j.Q===0){j.dx=0
+GG(a,b){var s,r,q,p,o,n,m,l,k,j,i=this,h=i.y,g=h.length
+if(g===0||i.Q===0){i.dx=0
 return}if(a>b){s=b
 b=a
-a=s}for(r=j.e,q=0,p=0,o=0;o<i.length;i.length===h||(0,A.E)(i),++o){n=i[o]
+a=s}for(r=i.e,q=0,p=0,o=0;o<h.length;h.length===g||(0,A.E)(h),++o){n=h[o]
 if(A.a1K(n,null)!=null)continue
 m=r.h(0,n)
-if(j.db){l=m!=null&&m<a
-k=!l}else k=!0
-if(k)++p
-if(m!=null&&m>=a&&m<=b&&k)++q}j.dx=p>0?q*100/p:0},
+if(i.fx&&m==null){l=i.fr.h(0,n)
+if(i.f.p(0,l))m=r.h(0,i.fr.h(0,n))}if(i.db){k=m!=null&&m<a
+j=!k}else j=!0
+if(j)++p
+if(m!=null&&m>=a&&m<=b&&j)++q}i.dx=p>0?q*100/p:0},
 a0N(a){var s,r=A.a1J(a)
 if(r==null)r=0
 if(r<0)r=0
@@ -73556,7 +73559,7 @@ q.y=c
 if(r<0||r>1)A.ae(A.dE("Percent value must be a double between 0.0 and 1.0, but it's "+A.l(r)))
 return A.lZ(A.b([q,A.ds(s,8,s),A.d7(a,s,s,s,A.cV(s,s,s,s,s,s,s,s,s,s,s,14,s,s,B.b8,s,s,!0,s,s,s,s,s,s,s,s),s,s)],t.E),B.al,B.b0,B.cT)},
 Xo(a,b){return this.yF(a,b,B.Gu)},
-L(a){var s,r=this,q=null,p=A.d7("Word Comparison Dashboard",q,q,q,A.cV(q,q,q,q,q,q,q,q,q,q,q,q,q,q,B.b8,q,q,!0,q,q,q,q,q,q,q,q),q,q),o=t.E,n=A.pW(A.b([A.d7("Total Words: "+r.Q,q,q,q,A.cV(q,q,q,q,q,q,q,q,q,q,q,16,q,q,B.b8,q,q,!0,q,q,q,q,q,q,q,q),q,q),A.d7("Total Sentences: "+r.as,q,q,q,A.cV(q,q,q,q,q,q,q,q,q,q,q,16,q,q,B.b8,q,q,!0,q,q,q,q,q,q,q,q),q,q)],o),B.al,B.iP,B.bb),m=A.ds(q,16,q),l=A.S0(12),k=A.ahX(r.r,A.XA(q,B.k1,q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,"Paste your text here...",q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,A.Xk(q,A.Xi(B.CF,q,q),r.gY5(),q,q),q,q,q,q),q,5,new A.aet(r),q,B.aG),j=A.ds(q,16,q),i=A.pW(A.b([A.amQ(new A.aeu(r),r.fx),A.d7("Ignore Lemmas",q,q,q,q,q,q)],o),B.al,B.e4,B.bb),h=r.Xo("Matching %",r.ay),g=r.cy
+L(a){var s,r=this,q=null,p=A.d7("Word Comparison Dashboard",q,q,q,A.cV(q,q,q,q,q,q,q,q,q,q,q,q,q,q,B.b8,q,q,!0,q,q,q,q,q,q,q,q),q,q),o=t.E,n=A.pW(A.b([A.d7("Total Words: "+r.Q,q,q,q,A.cV(q,q,q,q,q,q,q,q,q,q,q,16,q,q,B.b8,q,q,!0,q,q,q,q,q,q,q,q),q,q),A.d7("Total Sentences: "+r.as,q,q,q,A.cV(q,q,q,q,q,q,q,q,q,q,q,16,q,q,B.b8,q,q,!0,q,q,q,q,q,q,q,q),q,q)],o),B.al,B.iP,B.bb),m=A.ds(q,16,q),l=A.S0(12),k=A.ahX(r.r,A.XA(q,B.k1,q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,"Paste your text here...",q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,A.Xk(q,A.Xi(B.CF,q,q),r.gY5(),q,q),q,q,q,q),q,5,new A.aet(r),q,B.aG),j=A.ds(q,16,q),i=A.pW(A.b([A.amQ(new A.aeu(r),r.fx),A.d7("Add Lemmas to Matching Words",q,q,q,q,q,q)],o),B.al,B.e4,B.bb),h=r.Xo("Matching %",r.ay),g=r.cy
 g=A.ds(new A.w0(g,new A.aev(r),0,5000,5000,new A.Gm(B.h.k(B.c.a6(g.a)),B.h.k(B.c.a6(r.cy.b))),q),q,300)
 s=r.cy
 s=A.pW(A.b([h,A.lZ(A.b([g,r.yF("Between IDs: "+B.c.a6(s.a)+" - "+B.c.a6(s.b),r.dx,B.cU),A.ds(q,8,q),A.pW(A.b([A.ds(A.ahX(r.w,A.XA(q,new A.fw(4,B.ds,B.hA),q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,A.cV(q,q,q,q,q,q,q,q,q,q,q,12,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),"Min",q,q,q,q,q,q,q,q,q,q,q,q,q),B.xv,1,q,r.ga0M(),B.el),q,70),A.ds(q,q,12),A.ds(A.ahX(r.x,A.XA(q,new A.fw(4,B.ds,B.hA),q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,A.cV(q,q,q,q,q,q,q,q,q,q,q,12,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),"Max",q,q,q,q,q,q,q,q,q,q,q,q,q),B.xv,1,q,r.ga0K(),B.el),q,70)],o),B.al,B.e4,B.bb),A.ds(q,8,q),A.pW(A.b([A.amQ(new A.aew(r),r.db),A.d7("Ignore before Min",q,q,q,q,q,q)],o),B.al,B.e4,B.bb)],o),B.al,B.b0,B.cT),r.yF("Non-Matching %",r.ch,B.rh)],o),B.al,B.iP,B.bb)
